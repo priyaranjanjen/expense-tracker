@@ -3,21 +3,17 @@
 }
 .main{
     background-color: #3B3B3B;
-    height: 100vh;
+    /* height: 100vh; */
     /* width: 100vw; */
     padding: 36px;
     color: white;
+
+}
+
+.main h1{
+    font-size: 2rem;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
-}
-
-h1{
-    font-size: 32px;
-}
-
-h3{
-    font-size: 28px;
-    font-style: italic;
 }
 
 .cardWrapper{
@@ -36,4 +32,18 @@ h3{
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
+}
+
+@media(max-width:767px){
+    .main h1{
+        text-align: center;
+    }
+    .cardWrapper{
+        padding: 16px;
+        grid-template-columns: 1fr;
+        gap:24px;
+    }
+    .data{
+        grid-template-columns: 1fr;
+    }
 }
