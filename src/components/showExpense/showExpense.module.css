@@ -1,0 +1,84 @@
+.cardWrapper h2{
+    font-size: 28px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.showCard{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.card{
+    color: black;
+    border-bottom: 1px solid rgba(155, 155, 155, 1);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    background: #D9D9D9;
+    border-radius: 50%;
+    padding:10px;
+    font-size:1.2rem;
+}
+
+.title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color:#000;
+    font-weight: 400;
+}
+
+.capitalizeFirstLetter{
+    text-transform: capitalize;
+}
+
+.date{
+    color: #9B9B9B;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.price{
+    color:#F4BB4A;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.buttonWrapper{
+    display: flex;
+    gap: 8px;
+}
+
+.buttonWrapper button{
+    
+    padding:8px;
+    border-radius: 15px;
+    border:0;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    font-size: 1.4rem;
+    cursor: pointer;
+    color:#fff;
+}
+
+.closeButton{
+    background: #FF3E3E;
+
+}
+
+.editButton{
+    background: #F4BB4A;
+}

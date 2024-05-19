@@ -1,0 +1,33 @@
+.formModal{
+    background-color: rgba(239, 239, 239, 0.85);
+    border-radius: 15px;
+    padding: 30px;
+    color: black;
+}
+
+.formWrapper form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+input{
+    border-radius: 15px;
+    border: 0;
+    padding: 10px 30px;
+    width: 170px;
+}
+
+select{
+    border-radius: 15px;
+    border: 0;
+    padding: 10px 30px;
+    width: 200px;
+}

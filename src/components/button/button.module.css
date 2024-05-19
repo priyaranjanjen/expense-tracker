@@ -1,0 +1,30 @@
+.button{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    /* color: #fff; */
+    background: rgba(217, 217, 217, 1);
+}
+
+.balance{
+    background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+    color: #fff;
+
+}
+
+.expense{
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+    color: #fff;
+}
+
+.primary{
+    background: rgba(244, 187, 74, 1);
+    color: #fff;
+}
+
+.shadow{
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
